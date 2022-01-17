@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*Contenuto della card principale*/
+.container {
+  width: 800px;
+  height: 600px;
+  margin: auto;
+  margin-top: 2%;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 65px;
+  text-align: center;
+}
+/*Regole stile header per titolo principale e logo*/
+.logo {
+  width: 150px;
+}
+
+header>h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #44d128;
+  margin-top: 15px;
+}
+/*Regole stile barra di navigazione*/
+.navbar {
+  background-color: #44d128;
+  border-radius: 1px;
+  width: 100%;
+  margin: auto;
+  height: 30px;
+  padding: 5px;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  font-size: 8px;
+  font-weight: 600;
+}
+/*Regole stile main e sue sottosezioni*/
+main>section {
+  text-align: left;
+}
+
+.monopattino {
+  margin-top: 25px;
+}
+
+div>h3 {
+  display: inline-block;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 550;
+}
+
+.monopattino>p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#arrow:before {
+  content: "\21A6";
+}
+
+#arrow:after{
+  content: "\21A4";
+}
+
+.utente1>.charge {
+  width: 30%;
+  height: 20px;
+  background-color: #ebc049;
+  border-radius: 4px;
+}
+
+.utente2>.charge {
+  width: 65%;
+  height: 20px;
+  background-color: #39ab22;
+  border-radius: 4px;
+}
+
+.utente3>.charge {
+  width: 20%;
+  height: 20px;
+  background-color: #c73232;
+  border-radius: 4px;
+}
